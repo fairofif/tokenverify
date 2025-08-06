@@ -10,9 +10,10 @@
 	</parent>
 	<groupId>com.authlib</groupId>
 	<artifactId>tokenverify</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
 	<name>tokenverify</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Internal auth validation</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -72,5 +73,13 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/fairofif/tokenverify</url>
+		</repository>
+	</distributionManagement>
 
 </project>
